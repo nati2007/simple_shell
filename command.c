@@ -18,7 +18,7 @@ char **parse_user_input(char *str_input, char *delimiter)
 		dispatch_error("Error while parsing the command\n");
 
 	/* Count the number of arguments present in the input */
-       args_count = count_args(str_input, delimiter);
+	args_count = count_args(str_input, delimiter);
 	/* Allocate memory to hold eaach argument as a string */
 	args = allocate_memory(sizeof(char *) * (args_count + 1));
 	/* Store each argument as a string */
