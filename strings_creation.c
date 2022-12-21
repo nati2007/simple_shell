@@ -46,7 +46,7 @@ char *f_strsub(char const *s, unsigned int start, size_t len)
 		i++;
 	}
 	us[i] = '\0';
-       return (us);
+	return (us);
 }
 
 /**
