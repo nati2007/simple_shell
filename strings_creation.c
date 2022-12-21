@@ -1,4 +1,4 @@
-#include "simple_shell"
+#include "shell.h"
 
 /**
  * f_strjoin - concatenates string 1 + string 2
